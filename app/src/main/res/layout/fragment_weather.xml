@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grdnt"
+   >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorToolbar"
+        android:orientation="vertical"
+        android:id="@+id/fragment_weather_linear_layout">
+
+        <TextView
+            android:id="@+id/fragment_weather_temp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="50dp"
+            style="@style/WeatherTextView"/>
+
+        <TextView
+            android:id="@+id/fragment_weather_city"
+            style="@style/WeatherTextView"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:id="@+id/fragment_weather_weather_condition"
+            style="@style/WeatherTextView"
+            android:layout_marginStart="50dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/fragment_weather_humidity"
+        style="@style/WeatherTextView"
+        android:layout_below="@id/fragment_weather_linear_layout"
+        android:layout_marginStart="50dp"
+        />
+
+    <TextView
+        android:id="@+id/fragment_weather_windspeed"
+        style="@style/WeatherTextView"
+        android:layout_marginStart="50dp"
+        android:layout_below="@id/fragment_weather_humidity"
+       />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_weather_pressure"
+        style="@style/WeatherTextView"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/fragment_weather_windspeed"
+     />
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+
+
+    <style name="TextViewApplable">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">55dp</item>
+    </style>
+
+    <style name="TextViewlable">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+    <style name="TextviewSignUp">
+        <item name="android:layout_marginLeft">122dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">45dp</item>
+    </style>
+
+    <style name="LoginappLable">
+        <item name="android:textColor">#009a9a</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="EdittextEmail">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item><item name="android:textColorHint">#d9e5f3</item><item name="android:background">#4a5a71</item><item name="android:inputType">textEmailAddress</item><item name="android:letterSpacing">0.1</item></style><style name="EdittextPassword"><item name="android:textColorHint">#d9e5f3</item><item name="android:padding">16dp</item><item name="android:textSize">16sp</item><item name="android:background">#4a5a71</item><item name="android:inputType">textPassword</item><item name="android:letterSpacing">0.1</item></style>
+    <style name="ButtonLogin"><item name="android:textColorHint">#d9e5f3</item><item name="android:padding">16dp</item><item name="android:textSize">16sp</item><item name="android:background">#009a9a</item><item name="android:letterSpacing">0.2</item><item name="android:textColor">#d9e5f3</item><item name="android:textStyle">bold</item></style>
+    <style name="TextviewSignup"><item name="android:gravity">center</item><item name="android:textColor">#009a9a</item><item name="android:letterSpacing">0.1</item></style>
+    <style name="EdittextUsername"><item name="android:textColor">#ffffff</item><item name="android:textSize">16sp</item><item name="android:textColorHint">#d9e5f3</item><item name="android:background">#4a5a71</item><item name="android:inputType">text</item><item name="android:letterSpacing">0.1</item></style>
+    <style name="EdittextMobile"><item name="android:textColor">#ffffff</item><item name="android:textSize">16sp</item><item name="android:textColorHint">#d9e5f3</item><item name="android:background">#4a5a71</item><item name="android:inputType">text</item><item name="android:letterSpacing">0.1</item></style>
+    <style name="WeatherTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWidgets</item>
+    </style>
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

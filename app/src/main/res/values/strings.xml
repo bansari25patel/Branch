@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SARestaurant</string>
+    <string name="app_lable">Login App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="msg_valid_email">Please enter valid email</string>
+    <string name="msg_valid_password">Please enter valid password</string>
+    <string name="msg_valid_length_password">Please enter 8 digit password</string>
+    <string name="msg_success">Success</string>
+    <string name="app_lable_signup">Sign Up App</string>
+    <string name="msg_login_status">You have sign up with login</string>
+    <string name="msg_facebook_login_status">You have sign up with facebook</string>
+    <string name="msg_invalid_login">Invalid username or password</string>
+    <string name="msg_invalid_name">Invalid Name</string>
+    <string name="facebook_app_id">2012619882304297</string>
+    <string name="fb_login_protocol_scheme">fb2012619882304297</string>
+    <string name="msg_social_login_success">Success Social Login</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="favourite_restaurant">Favourite Restaurant</string>
+    <string name="wheather">Wheather</string>
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="toolbar_title">Home</string>
+    <string name="home">Home</string>
+    <string name="contentdescription">null</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="google_place_api_key"> AIzaSyCfrRVsTxP5zRzF0uUjUcFoSEU6WupDizo</string>
+    <string name="map">Map</string>
+    <string name="listview">List</string>
+    <string name="login_app_lable">Login App</string>
+    <string name="login">Login</string>
+    <string name="create_account_signup">Create Account ? Signup</string>
+    <string name="username">Username</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="signup">Signup</string>
+    <string name="msg_invalid_mobile">Invalid Mobile Number</string>
+    <string name="list">List</string>
+    <string name="humidity">Humidity</string><string name="wind_speed">Wind Speed</string><string name="please_wait">Please wait…</string><string name="refresh">Refresh</string><string name="celsius">°C</string><string name="pressure">Pressure</string>
+</resources>
